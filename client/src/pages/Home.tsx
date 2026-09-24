@@ -133,7 +133,7 @@ const work = [
     description: "A professional networking and job portal with role-based access, social feed, recruitment workflows, and resume generation.",
     stack: ["Next.js", "MongoDB", "Auth.js"],
     href: "https://web-talentforge.vercel.app/",
-    preview: ["/project-previews/talentforge.webp", "/project-previews/talentforge-jobs.webp"],
+    preview: ["/project-previews/talentforge.webp", "/project-previews/talentforge-jobs.webp", "/project-previews/talentforge-jobs-lower.webp", "/project-previews/talentforge-resume.webp"],
     accent: "mint",
   },
   {
@@ -151,7 +151,7 @@ const work = [
     description: "A personal finance command center with visual analytics, debt tracking, spreadsheet imports, and AI receipt review.",
     stack: ["React", "Recharts", "Gemini API"],
     href: "https://trackledger.vercel.app/dashboard",
-    preview: ["/project-previews/ledger.webp", "/project-previews/ledger-months.webp"],
+    preview: ["/project-previews/ledger-charts.webp", "/project-previews/ledger-months.webp"],
     accent: "coral",
   },
   {
@@ -219,7 +219,7 @@ function Monitor({ progress }: { progress: number }) {
               <h1>Hi, I&apos;m <em>Zobia</em><span className="cursor-block">_</span></h1>
               <p className="screen-role">Software engineer <span>+</span> full-stack developer</p>
               <p className="screen-copy">I build thoughtful products at the intersection of reliable systems, expressive interfaces, and just enough magic.</p>
-              <div className="screen-actions"><a href="#work">view selected work <ArrowUpRight size={14} /></a><a className="resume-action" href="/resume.pdf" download>download resume <ArrowDown size={13} /></a><span>scroll to explore <ChevronDown size={13} /></span></div>
+              <div className="screen-actions"><a href="#work">view selected work <ArrowUpRight size={14} /></a><a className="resume-action" href="/Zobia%20-%20Resume.pdf" download="Zobia - Resume.pdf" type="application/pdf">download resume <ArrowDown size={13} /></a><span>scroll to explore <ChevronDown size={13} /></span></div>
             </div>
             <div className="screen-footer"><span>Karachi, Pakistan</span><span>React / Node / .NET / AI</span></div>
           </div>
@@ -293,7 +293,7 @@ export default function Home() {
           <div className="experience-list"><article><div className="experience-date">MAY 2026 — NOW</div><div><h3>Freelance <span>/</span> Full Stack Developer</h3><p>Building mobile application features with React Native and FCM, contributing to .NET applications, and translating client requirements into production-ready releases.</p></div><span className="experience-type">remote</span></article><article><div className="experience-date">JAN 2024 — DEC 2025</div><div><h3>Shispare <span>/</span> Associate Software Engineer</h3><p>Developed 6+ scalable SaaS-style products spanning logistics, CRM, ERP, onboarding, warehouse operations, real-time tracking, and document workflows.</p></div><span className="experience-type">karachi</span></article><article><div className="experience-date">FEB 2023 — JUN 2023</div><div><h3>CaterpillHERs <span>/</span> Frontend Developer Intern</h3><p>Built responsive Angular interfaces, onboarding flows, profile management, and API-connected experiences inside an agile product team.</p></div><span className="experience-type">remote</span></article></div>
         </section>
 
-        <section id="contact" className="contact-section section-pad"><div className="contact-card"><div className="contact-art" aria-hidden="true"><div className="contact-orbit orbit-a" /><div className="contact-orbit orbit-b" /><div className="contact-cursor">↗</div></div><div className="section-index">06 / CONTACT</div><h2>Let&apos;s build something<br /><span>worth shipping.</span></h2><p>Available for thoughtful freelance and contract work, and always open to the right recruiter conversation. Tell me what you&apos;re building, what&apos;s stuck, or where a strong product engineer could help.</p><a className="contact-link" href="mailto:zobiaaashraf@gmail.com">start a conversation <ArrowUpRight size={20} /></a><div className="contact-links"><a href="https://www.linkedin.com/in/zubia-ashraf/" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href="https://github.com/zubiiaa" target="_blank" rel="noreferrer"><Github size={16} /> GitHub</a><a href="mailto:zobiaaashraf@gmail.com"><Mail size={16} /> Email me</a></div></div></section>
+        <section id="contact" className="contact-section section-pad"><div className="contact-card"><div className="contact-art" aria-hidden="true"><div className="contact-orbit orbit-a" /><div className="contact-orbit orbit-b" /><div className="contact-cursor">↗</div></div><div className="section-index">06 / CONTACT</div><h2>Let&apos;s build something<br /><span>worth shipping.</span></h2><p>Available for thoughtful freelance and contract work, and always open to the right recruiter conversation. Tell me what you&apos;re building, what&apos;s stuck, or where a strong product engineer could help.</p><a className="contact-link" href="mailto:zobiaaashraf@gmail.com?subject=Portfolio%20inquiry" aria-label="Start a conversation by email">start a conversation <ArrowUpRight size={20} /></a><div className="contact-links"><a href="https://www.linkedin.com/in/zubia-ashraf/" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn</a><a href="https://github.com/zubiiaa" target="_blank" rel="noreferrer"><Github size={16} /> GitHub</a><a href="mailto:zobiaaashraf@gmail.com?subject=Portfolio%20inquiry" aria-label="Email Zobia Ashraf"><Mail size={16} /> Email me</a></div></div></section>
       </main>
 
       <footer className="site-footer"><span>DESIGNED + BUILT BY ZOBIA ASHRAF</span><span>MONITOR CONCEPT INSPIRED BY ED HINRICHSEN&apos;S PORTFOLIO</span><span>REACT / TYPESCRIPT / A LITTLE 3D</span><a href="#top">BACK TO TOP <ChevronDown size={14} /></a></footer>
