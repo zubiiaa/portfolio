@@ -121,9 +121,9 @@ function Sticker({ label, tone, initialRotation, detail = "skill" }: StickerProp
 }
 
 const secondarySkills = [
-  "HTML / CSS", "Git", "Figma", "Python", "PyTorch", "PostgreSQL", "Docker", "FCM", "WebSockets", "Azure",
-  "shadcn/ui", "Recharts", "SQL", "Claude", "Cursor", "Vercel V0", "Lovable", "GitHub Copilot", "Google Gemini API",
-  "JWT Authentication", "Third-Party API Integrations", "Auth.js", "Bitbucket", "Jira", "AWS", "SendGrid", "Vercel Blob", "CI/CD", "Postman",
+  "HTML / CSS", "Git", "Python", "PostgreSQL", "Docker", "FCM", "WebSockets",
+  "shadcn/ui", "Recharts", "SQL", "Claude", "Cursor", "GitHub Copilot", "Google Gemini API",
+  "JWT", "BitBucket", "Jira", "AWS", "SendGrid", "CI/CD", "Postman",
 ];
 
 const work = [
