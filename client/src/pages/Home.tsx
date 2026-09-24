@@ -250,7 +250,7 @@ export default function Home() {
     <div className="portfolio-shell">
       <header className="site-nav">
         <a className="brand-mark" href="#top" aria-label="Zobia Ashraf home"><span>SZ</span><small>/ 26</small></a>
-        <nav><a href="#about">about</a><a href="#work">work</a><a href="#skills">toolbox</a><a href="#contact">contact</a></nav>
+        <nav><a href="#about">about</a><a href="#work">projects</a><a href="#skills">toolbox</a><a href="#experience">experience</a><a href="#contact">contact</a></nav>
         <a className="nav-status" href="mailto:zobiaaashraf@gmail.com" aria-label="Available for freelance, contract, and full-time work"><span className="status-dot" /><span className="nav-status-copy"><strong>open to work</strong><small>freelance · contract · full-time</small></span></a>
       </header>
 
@@ -288,7 +288,7 @@ export default function Home() {
           <div className="skill-bottom-note"><span><Terminal size={15} /> frontend led</span><span><Workflow size={15} /> backend connected</span><span><BrainCircuit size={15} /> AI curious</span><span><Orbit size={15} /> motion friendly</span></div><div className="skill-constellation"><span>also in the toolbox</span>{secondarySkills.map((skill) => <b key={skill}>{skill}</b>)}</div>
         </section>
 
-        <section className="experience-section section-pad">
+        <section  id="experience" className="experience-section section-pad">
           <div className="section-heading"><div><div className="section-index">05 / EXPERIENCE</div><h2>Where the work <span>happened.</span></h2></div><p>Collaborative by default. Detail-oriented on purpose. Comfortable moving from product conversation to production code.</p></div>
           <div className="experience-list"><article><div className="experience-date">MAY 2026 — NOW</div><div><h3>Freelance <span>/</span> Full Stack Developer</h3><p>Building mobile application features with React Native and FCM, contributing to .NET applications, and translating client requirements into production-ready releases.</p></div><span className="experience-type">remote</span></article><article><div className="experience-date">JAN 2024 — DEC 2025</div><div><h3>Shispare <span>/</span> Associate Software Engineer</h3><p>Developed 6+ scalable SaaS-style products spanning logistics, CRM, ERP, onboarding, warehouse operations, real-time tracking, and document workflows.</p></div><span className="experience-type">karachi</span></article><article><div className="experience-date">FEB 2023 — JUN 2023</div><div><h3>CaterpillHERs <span>/</span> Frontend Developer Intern</h3><p>Built responsive Angular interfaces, onboarding flows, profile management, and API-connected experiences inside an agile product team.</p></div><span className="experience-type">remote</span></article></div>
         </section>
