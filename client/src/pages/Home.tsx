@@ -133,7 +133,7 @@ const work = [
     description: "A professional networking and job portal with role-based access, social feed, recruitment workflows, and resume generation.",
     stack: ["Next.js", "MongoDB", "Auth.js"],
     href: "https://web-talentforge.vercel.app/",
-    preview: ["/project-previews/talentforge.webp", "/project-previews/talentforge-jobs.webp", "/project-previews/talentforge-jobs-lower.webp", "/project-previews/talentforge-resume.webp"],
+    preview: ["/project-previews/talentforge.webp", "/project-previews/talentforge-jobs.webp", "/project-previews/talentforge-resume.webp"],
     accent: "mint",
   },
   {
@@ -142,7 +142,7 @@ const work = [
     description: "A handcrafted portfolio system designed around a retro-computing interface, live product storytelling, and a playful but performance-minded frontend.",
     stack: ["React", "TypeScript", "CSS 3D"],
     href: "",
-    preview: ["/project-previews/portfolio.png"],
+    preview: ["/project-previews/portfolio.png", "/project-previews/portfolio-skills.webp"],
     accent: "blue",
   },
   {
@@ -278,7 +278,7 @@ export default function Home() {
 
         <section id="work" className="work-section section-pad">
           <div className="section-heading"><div><div className="section-index">03 / SELECTED WORK</div><h2>Things I&apos;ve <span>made real.</span></h2></div><p>A small selection of products I&apos;ve built, plus one client property brought to life from supplied design.</p></div>
-          <div className="work-list">{work.map((item) => { const content = <>{item.preview.length ? <div className="work-preview" aria-hidden="true"><div className="preview-slides">{item.preview.map((src, index) => <img className="work-preview-image" src={src} alt="" style={{ "--slide-index": index, "--slide-count": item.preview.length } as React.CSSProperties} key={src} />)}</div><small>live preview / {item.title} · hover to roll</small></div> : null}<div className="work-card-top"><span className="work-number">{item.number}</span><span className="work-arrow">{item.href ? <ArrowUpRight size={21} /> : <span className="work-lock">—</span>}</span></div><div className="work-card-body"><h3>{item.title}</h3><p>{item.description}</p><div className="work-stack">{item.stack.map((tag) => <span key={tag}>{tag}</span>)}</div></div><div className="work-card-line" /></>; return item.href ? <a className={`work-card work-${item.accent}`} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noreferrer" : undefined} key={item.number}>{content}</a> : <div className={`work-card work-${item.accent} work-card-static`} key={item.number}>{content}</div>; })}</div>
+          <div className="work-list">{work.map((item) => { const content = <>{item.preview.length ? <div className="work-preview" aria-hidden="true"><div className="preview-slides">{item.preview.map((src, index) => <img className="work-preview-image" src={src} alt="" style={{ "--slide-index": index, "--slide-count": item.preview.length } as React.CSSProperties} key={src} />)}</div><small>live preview / {item.title}<span className="preview-hint"> · hover to roll</span></small></div> : null}<div className="work-card-top"><span className="work-number">{item.number}</span><span className="work-arrow">{item.href ? <ArrowUpRight size={21} /> : <span className="work-lock">—</span>}</span></div><div className="work-card-body"><h3>{item.title}</h3><p>{item.description}</p><div className="work-stack">{item.stack.map((tag) => <span key={tag}>{tag}</span>)}</div></div><div className="work-card-line" /></>; return item.href ? <a className={`work-card work-${item.accent}`} href={item.href} target={item.href.startsWith("http") ? "_blank" : undefined} rel={item.href.startsWith("http") ? "noreferrer" : undefined} key={item.number}>{content}</a> : <div className={`work-card work-${item.accent} work-card-static`} key={item.number}>{content}</div>; })}</div>
         </section>
 
         <section id="skills" className="skills-section section-pad">
