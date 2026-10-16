@@ -138,6 +138,15 @@ const work = [
   },
   {
     number: "02",
+    title: "Docraft",
+    description: "A collaborative rich-text document editor with role-based sharing, autosave with conflict detection, comments, version history, and .txt/.md import with PDF export.",
+    stack: ["Next.js", "TipTap", "MongoDB"],
+    href: "https://docraft-hq.vercel.app/",
+    preview: ["/project-previews/docraft.webp", "/project-previews/docraft-documents.webp", "/project-previews/docraft-share.webp"],
+    accent: "lilac",
+  },
+  {
+    number: "03",
     title: "This Portfolio",
     description: "A handcrafted portfolio system designed around a retro-computing interface, live product storytelling, and a playful but performance-minded frontend.",
     stack: ["React", "TypeScript", "CSS 3D"],
@@ -146,7 +155,7 @@ const work = [
     accent: "blue",
   },
   {
-    number: "03",
+    number: "04",
     title: "Ledger",
     description: "A personal finance command center with visual analytics, debt tracking, spreadsheet imports, and AI receipt review.",
     stack: ["React", "Recharts", "Gemini API"],
@@ -155,7 +164,7 @@ const work = [
     accent: "coral",
   },
   {
-    number: "04",
+    number: "05",
     title: "VITAJIT",
     description: "A polished marketing site for a client property, built from their provided design with fast load times, flexible content, and a crisp responsive experience across devices.",
     stack: ["Next.js", "Tailwind CSS", "SSG"],
@@ -164,7 +173,7 @@ const work = [
     accent: "lilac",
   },
   {
-    number: "05",
+    number: "06",
     title: "Artificial Neural Vision",
     description: "A final-year smart glasses project translating real-time computer vision into audio descriptions for visually impaired users.",
     stack: ["Python", "PyTorch", "CNN + LSTM"],
